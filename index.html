@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <link rel="icon" href="images/quote_64.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha512-g06pohSHYbSOHKq8tdDGXckE6C23Yt30xlTFDhrO0OcO/bNO2MWXb63oqU/Y23GDMNOon100eGHxZPBnT4QgMw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- App to link Vue -->
+    <div id="app">
+      <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+          <i class="fas fa-quote-left"></i>
+          <span>{{ currentQuote }}</span>
+          <!-- Author -->
+          <div class="quote-author">
+            <span> {{ currentQuoteAuthor }}</span>
+          </div>
+          <!-- Buttons -->
+          <div class="button-container">
+            <!-- <button class="twitter-button" id="twitter" title="Tweet This!">
+              <i class="fab fa-twitter"></i>
+            </button> -->
+            <button @click="newQuote">New Quote</button>
+          </div>
+        </div>
+      </div>
+      <!-- Loader -->
+      <!-- <div class="loader" id="loader"></div> -->
+    </div>
+    <!-- Vue Api -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- Script -->
+    <script src="main.js"></script>
+  </body>
+</html>
