@@ -1,8 +1,8 @@
 new Vue({
   el: '#app',
   data: {
-    currentQuote: '',
-    currentQuoteAuthor: '',
+    currentQuote: 'NOT UNDER MY CONTROL',
+    currentQuoteAuthor: 'George Shaheen',
     quotes_api_url:
       'http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json',
     quotes_proxy_url: 'https://cryptic-thicket-75396.herokuapp.com/',
