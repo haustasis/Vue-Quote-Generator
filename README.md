@@ -40,7 +40,7 @@ Live Version: [https://haustasis.github.io/Vue-Quote-Generator/](https://haustas
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues]https://github.com/haustasis/Vue-Quote-Generator/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/haustasis/Vue-Quote-Generator/issues) for a list of proposed features (and known issues).
 
 * Fix Bugs
 * Add Loader
