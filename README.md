@@ -47,6 +47,7 @@ See the [open issues](https://github.com/haustasis/Vue-Quote-Generator/issues) f
 * Styling
 * README - Contact
 * Try catch errors
+* Add thumbnail in About the project
 
 
 <!-- CONTRIBUTING -->
